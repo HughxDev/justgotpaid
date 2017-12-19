@@ -1,0 +1,34 @@
+[Fri Sep 29 22:24:58.160145 2017] [authz_core:error] [pid 29811] [client 96.89.198.162:60375] AH01630: client denied by server configuration: /srv/www/justgotpaid/
+[Fri Sep 29 22:24:58.300986 2017] [authz_core:error] [pid 29811] [client 96.89.198.162:60375] AH01630: client denied by server configuration: /srv/www/justgotpaid/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:24:59.747617 2017] [authz_core:error] [pid 29811] [client 96.89.198.162:60375] AH01630: client denied by server configuration: /srv/www/justgotpaid/
+[Fri Sep 29 22:24:59.795666 2017] [authz_core:error] [pid 29811] [client 96.89.198.162:60375] AH01630: client denied by server configuration: /srv/www/justgotpaid/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:25:41.801865 2017] [authz_core:error] [pid 29799] [client 96.89.198.162:60556] AH01630: client denied by server configuration: /srv/www/justgotpaid/
+[Fri Sep 29 22:25:41.854929 2017] [authz_core:error] [pid 29799] [client 96.89.198.162:60556] AH01630: client denied by server configuration: /srv/www/justgotpaid/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:25:43.222484 2017] [authz_core:error] [pid 29799] [client 96.89.198.162:60556] AH01630: client denied by server configuration: /srv/www/justgotpaid/
+[Fri Sep 29 22:25:43.287284 2017] [authz_core:error] [pid 29799] [client 96.89.198.162:60556] AH01630: client denied by server configuration: /srv/www/justgotpaid/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:26:01.759909 2017] [authz_core:error] [pid 29765] [client 96.89.198.162:60640] AH01630: client denied by server configuration: /srv/www/justgotpaid/
+[Fri Sep 29 22:26:01.810109 2017] [authz_core:error] [pid 29765] [client 96.89.198.162:60640] AH01630: client denied by server configuration: /srv/www/justgotpaid/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:27:40.391627 2017] [core:info] [pid 30594] [client 96.89.198.162:61009] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:31:41.810839 2017] [core:info] [pid 30649] [client 108.20.70.191:46517] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:33:52.548001 2017] [core:info] [pid 30599] [client 73.167.179.62:61189] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:35:00.748652 2017] [core:info] [pid 30649] [client 199.16.157.182:52239] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 22:35:02.979863 2017] [core:info] [pid 30670] [client 72.30.14.13:52758] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 22:35:26.637108 2017] [core:info] [pid 30594] [client 144.76.22.111:35616] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 22:38:32.611274 2017] [core:info] [pid 31933] [client 209.133.111.215:52705] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 22:39:41.806878 2017] [core:info] [pid 30599] [client 173.239.209.22:51974] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:42:06.310662 2017] [core:info] [pid 30604] [client 73.76.195.251:48344] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:50:24.910228 2017] [http:info] [pid 32177] (70007)The timeout specified has expired: [client 73.61.23.114:57707] AH01581: Timeout while writing data for URI /nsync-just-got-paid.mp4 to the client, referer: http://justgotpaid.money/
+[Fri Sep 29 22:59:45.557398 2017] [core:info] [pid 32171] [client 75.67.11.54:36826] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 22:59:53.604550 2017] [core:info] [pid 32176] [client 75.67.11.54:36832] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Fri Sep 29 23:10:40.164990 2017] [core:info] [pid 30599] [client 34.224.87.99:48585] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 23:10:40.464979 2017] [core:info] [pid 30604] [client 34.207.153.112:35288] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Fri Sep 29 23:11:32.797483 2017] [core:info] [pid 32171] [client 209.6.194.130:59884] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico
+[Fri Sep 29 23:19:09.233996 2017] [core:info] [pid 30604] [client 71.232.119.171:34817] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico
+[Fri Sep 29 23:19:09.274436 2017] [core:info] [pid 30604] [client 71.232.119.171:34817] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico
+[Sat Sep 30 00:21:33.152400 2017] [core:info] [pid 31933] [client 75.104.64.224:42516] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Sat Sep 30 04:59:03.530049 2017] [core:info] [pid 31933] [client 100.0.189.115:48081] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Sat Sep 30 05:04:03.059981 2017] [http:info] [pid 32176] (70007)The timeout specified has expired: [client 100.0.189.115:48083] AH01581: Timeout while writing data for URI /nsync-just-got-paid.mp4 to the client
+[Sat Sep 30 05:30:14.860140 2017] [core:info] [pid 32171] [client 5.196.87.56:20828] AH00128: File does not exist: /srv/www/justgotpaid/public/robots.txt
+[Sat Sep 30 06:48:50.682172 2017] [core:info] [pid 30594] [client 109.159.26.24:34431] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Sat Sep 30 10:11:18.372728 2017] [core:info] [pid 30599] [client 174.192.27.115:9086] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/
+[Sat Sep 30 12:53:16.547652 2017] [core:info] [pid 30604] [client 71.232.119.171:42440] AH00128: File does not exist: /srv/www/justgotpaid/public/favicon.ico, referer: http://justgotpaid.money/

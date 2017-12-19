@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+footer {
+
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.footer-content {
+        opacity: 0.25;
+    transition: opacity ease 0.5s;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.footer-content:hover,
+.footer-content:focus {
+    opacity: 1;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: rgb(0, 180, 210);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe,
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#vidtop-content {
+    /*top: 0;*/
+    
+    color: #fff;
+}
+
+.vid-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 1rem;
+}
+
+.vid-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.vid-info a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: .6s background;
+    transition: .6s background;
+    border-bottom: none;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+        height: 300%;
+        top: -100%;
+    }
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+        width: 300%;
+        left: -100%;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .vid-info {
+        width: 50%;
+        padding: .5rem;
+    }
+
+    .vid-info h1 {
+        margin-bottom: .2rem;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .vid-info .acronym {
+        display: none;
+    }
+
+}
+
+.sky {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+/*    align-items: center;
+    justify-content: center;*/
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    /*background: -webkit-linear-gradient(top, #363497, #86b1e6);*/
+    /*background: linear-gradient(180deg, #363497, #86b1e6);*/
+    /*background-size: 100% 100%;*/
+    
+    -webkit-animation: sky 50s ease infinite;
+    animation: sky 50s ease infinite;
+    border-radius: 10px;
+}
+
+.friday,
+.not-friday {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+    position: absolute;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.title {
+  /*max-width: 50%;*/
+  text-align: center;
+}
+
+.title {
+    margin: 0;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    font-size: 36px;
+}
+
+.not-friday .title {
+    color: black;
+    text-shadow: none;
+}
+
+.title,
+.emoji {
+    text-shadow: 0.125rem 0.125rem 0.25rem black;
+    z-index: 2;
+}
+
+.emoji {
+    display: block;
+    position: relative;
+    top: -10px;
+    -webkit-animation: rain linear infinite;
+    animation: rain linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    font-size: 4rem;
+}
+
+.money1 {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+.money2 {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+.money3 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+.money4 {
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+.money5 {
+    -webkit-animation-duration: 4.5s;
+    animation-duration: 4.5s;
+}
+
+@-webkit-keyframes rain {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 100%;
+    }
+
+}
+
+@keyframes rain {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 100%;
+    }
+
+}
