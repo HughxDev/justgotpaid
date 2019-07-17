@@ -235,6 +235,18 @@ a:hover {
     animation-duration: 4.5s;
 }
 
+.toggle-audio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    padding: .75rem;
+    text-align: center;
+}
+
 @-webkit-keyframes rain {
     from {
         top: 0;

@@ -10,6 +10,7 @@
     <meta property="og:image:height" content="360" />
   </head>
   <body>
+    <button id="toggle-audio" class="toggle-audio" data-muted-icon="🔇" data-audible-icon="🔊" disabled="disabled" title="Toggle audio" aria-label="Toggle audio">🔇</button>
     <div class="not-friday" hidden="hidden">
       <h1 class="title">It’s not Friday yet…</h1>
     </div>
@@ -18,7 +19,7 @@
     </div>
     <div class="video-background">
       <div class="video-foreground">
-        <video loop="loop" autoplay="autoplay" autobuffer="autobuffer">
+        <video loop="loop" autoplay="autoplay" autobuffer="autobuffer" muted="muted">
           <source src="nsync-just-got-paid.mp4" type="video/mp4" />
         </video>
       </div>
@@ -34,9 +35,10 @@
     </div>
     <footer>
       <div class="footer-content">
-        <p>Made by <a href="https://twitter.com/LordPancreas" title="@LordPancreas on Twitter" aria-label="@LordPancreas on Twitter" target="_new">Hugh Guiney</a></p>
+        <p>Made by <a href="https://twitter.com/Turbohax" title="@TurboHax on Twitter" aria-label="@TurboHax on Twitter" target="_new">Hugh Guiney</a></p>
         <p>Props to <a href="https://codepen.io/esornire/pen/ZKbmdx" target="_new">Erin Ruby</a>, <a href="https://codepen.io/dudleystorey/pen/PZyMrd" target="_new">Dudley Storey</a>, <a href="https://www.youtube.com/watch?v=j6nhMkhqtn4" target="_new">joshsgal5</a>, &amp; <a href="http://nsync.com/" target="_new">NSYNC</a></p>
       </div>
     </footer>
+    <script src="video-sound.js"></script>
   </body>
 </html>
